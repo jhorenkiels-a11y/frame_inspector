@@ -97,4 +97,4 @@ The bot's attempts and jumps are not added to your stats. A bot-made run can nev
   - Every macro format was round-trip tested.
 - **The part most likely to need a fix** is how the game behaves when the bot restarts and loads save states mid-level. If something breaks, open Geode → Frame Inspector → logs and send me the error and what happened.
 
-Files: `src/core` is the engine and the macro readers (plain C++). `src/Scan.cpp` connects them to the game. `src/Overlay.cpp` draws the markers and counters. `src/Popup.cpp` is the menu. `tests/` has the PC tests.
+Files: `src/core` is the engine and the macro readers (plain C++). `src/Scan.cpp` connects them to the game. `src/Overlay.cpp` draws the markers and counters. `src/Popup.cpp` is the menu. `tests/` has the PC tests. 
